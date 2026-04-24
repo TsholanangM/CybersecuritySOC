@@ -1,0 +1,16 @@
+# Requirements for AI Analytics Project
+
+# PyTorch
+torch
+ torchvision
+ torchaudio
+
+# Machine Learning Libraries
+scikit-learn
+ pandas
+ numpy
+ matplotlib
+ seaborn
+
+# Additional Libraries
+jupyter

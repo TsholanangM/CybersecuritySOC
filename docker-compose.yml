@@ -1,0 +1,1 @@
+version: '3.8'\nservices:\n  db:\n    image: mysql:5.7\n    restart: always\n    environment:\n      MYSQL_ROOT_PASSWORD: rootpassword\n      MYSQL_DATABASE: mydatabase\n      MYSQL_USER: user\n      MYSQL_PASSWORD: userpassword\n    ports:\n      - '3306:3306'\n    volumes:\n      - db_data:/var/lib/mysql\n\nvolumes:\n  db_data:
